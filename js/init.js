@@ -10,9 +10,9 @@
 /* FitText Settings
 ------------------------------------------------------ */
 
-    setTimeout(function() {
-	   $('h1.responsive-headline').fitText(1, { minFontSize: '40px', maxFontSize: '90px' });
-	 }, 100);
+  //   setTimeout(function() {
+	 //   $('h1.responsive-headline').fitText(1, { minFontSize: '40px', maxFontSize: '90px' });
+	 // }, 100);
 
 
 /*----------------------------------------------------*/
@@ -138,17 +138,17 @@
 /*----------------------------------------------------*/
 /*	Flexslider
 /*----------------------------------------------------*/
-   $('.flexslider').flexslider({
-      namespace: "flex-",
-      controlsContainer: ".flex-container",
-      animation: 'slide',
-      controlNav: true,
-      directionNav: false,
-      smoothHeight: true,
-      slideshowSpeed: 7000,
-      animationSpeed: 600,
-      randomize: false,
-   });
+   // $('.flexslider').flexslider({
+   //    namespace: "flex-",
+   //    controlsContainer: ".flex-container",
+   //    animation: 'slide',
+   //    controlNav: true,
+   //    directionNav: false,
+   //    smoothHeight: true,
+   //    slideshowSpeed: 7000,
+   //    animationSpeed: 600,
+   //    randomize: false,
+   // });
  });
 
 
