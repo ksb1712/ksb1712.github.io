@@ -907,6 +907,12 @@ call-to-action .button {
 .fa-code {
   color: blue;
 }
+.fa-code-fork {
+  color: blue;
+}
+.fa-book {
+  color: blue;
+}
 
 .chip {
     display: inline-block;
