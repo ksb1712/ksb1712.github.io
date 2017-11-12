@@ -386,6 +386,28 @@ ul#nav li.current a { color: #F06000; }
   bottom: 0;
 }
 
+/* Create two equal columns that floats next to each other */
+#resume .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+#resume .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  #resume .column {
+        width: 100%;
+    }
+}
+
 /**
  * responsive:
  * resume
@@ -888,12 +910,20 @@ call-to-action .button {
 
 .chip {
     display: inline-block;
-    padding: 0 25px;
-    height: 50px;
+    height: 40px;
     font-size: 16px;
-    line-height: 50px;
-    border-radius: 25px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+    line-height: 40px;
+    padding: 0 13px;
+    padding-top: 0px;
+    padding-right: 13px;
+    padding-bottom: 0px;
+    padding-left: 13px;
+    border-radius: 20px;
     background-color: #c2c2c2;
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
 
 .chip img {
