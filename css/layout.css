@@ -53,7 +53,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -276,20 +276,20 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
-#about .download {
+.download {
    width: 58.33333%;
    padding-top: 6px;
 }
-#about .main-col { padding-right: 5%; }
-#about .download .button {
+.main-col {margin: 0 auto;}
+.download .button {
    margin-top: 6px;
-   background: #444;
+   background: rgb(245, 113, 6);
 }
-#about .download .button:hover {
+.download .button:hover {
    background: #fff;
-   color: #2B2B2B;
+   color: rgb(245, 113, 6);
 }
-#about .download .button i {
+.download .button i {
    margin-right: 15px;
    font-size: 20px;
 }
