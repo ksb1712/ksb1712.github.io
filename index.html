@@ -4,19 +4,7 @@
 <!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 
-   <!--- Basic Page Needs
-   ================================================== -->
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108402128-1"></script> -->
-	<!-- <script>
-  		window.dataLayer = window.dataLayer || [];
-  		function gtag(){dataLayer.push(arguments);}
-  		gtag('js', new Date());
-
-  		gtag('config', 'UA-108402128-1');
-	</script> -->
-
-   <meta charset="utf-8">
+  <meta charset="utf-8">
 	<title>Bharath</title>
 	<meta name="description" content="ksb1712,ksb,ksbharathwaj, Bharathwaj Sreedhar">
 	<meta name="keywords" content="ksb1712, ksb, ksbharathwaj, ks Bharathwaj, ksb">
@@ -58,12 +46,10 @@
 
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <!-- <li><a class="smoothscroll" href="#about">About</a></li> -->
 	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
-           <!-- <li><a class="smoothscroll" href="#portfolio">Works</a></li> -->
-         </ul> <!-- end #nav -->
+         </ul> 
 
-      </nav> <!-- end #nav-wrap -->
+      </nav> 
 
       <div class="row banner">
          <div class="banner-text">
@@ -96,45 +82,6 @@
    </header> <!-- Header End -->
 
 
-   <!-- About Section
-   ================================================== -->
-   <!-- <section id="about">
-
-      <div class="row"> -->
-
-         <!-- <div class="three columns">
-
-            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
-
-         </div> -->
-
-         <!-- <div class="nine columns main-col"> -->
-
-            <!-- <h2>About Me</h2> -->
-
-            <!-- <p>
-             Write text-->
-            <!-- </p> -->
-
-            <!-- <div class="row"> -->
-
-              
-<!--            
-               <div class="columns download">
-                  <p>
-                     <a href="./resume.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div>
-
-            </div>
-
-         </div> end .main-col
-
-      </div>
-
-  </section> About Section End -->
-
-
    <!-- Resume Section
    ================================================== -->
    <section id="resume">
@@ -159,7 +106,7 @@
   
               <div class="timeline-header">
                 <h3>Masters Degree</h3>
-                <p>Aug 2019 - Sept 2020</p>
+                <p>Oct 2018 - Sept 2020</p>
               </div>
   
               <div class="timeline-content">
@@ -174,29 +121,6 @@
   
             </div> <!-- /timeline-block -->
     
-
-          <!-- <div class="timeline-block">
-
-            <div class="timeline-ico">
-            <i class="fa fa-graduation-cap"></i>            
-          </div>
-
-            <div class="timeline-header">
-              <h3>Masters Degree</h3>
-              <p>Oct 2018 - Aug 2019</p>
-            </div>
-
-            <div class="timeline-content">
-              <h4><a href = "https://tu-berlin.de">Technical University of Berlin</a> </h4>
-              <p>
-                Double-degree masters program in Computer Science specializing in Robotics and Machine Learning, 
-                with a minor in Innovation and Entrepreunership. 
-              </p>
-            </div>
-
-          </div> /timeline-block -->
-
-   				
 
 	   			<div class="timeline-block">
 
@@ -242,6 +166,28 @@
    		<div class="col-twelve">
 
    			<div class="timeline-wrap">
+
+          <div class="timeline-block">
+
+            <div class="timeline-ico">
+              <i class="fa fa-briefcase"></i>
+            </div>
+
+            <div class="timeline-header">
+              <h3>Master Thesis Intern</h3>
+              <p>Feb 2020 - July 2020</p>
+            </div>
+
+            <div class="timeline-content">
+              <h4><a href="https://www.bioeng.nus.edu.sg/OEIL/OCTAGON.html">National University of Singapore, Singapore</a></h4>
+              <p> Worked on Bayesian optimization for Neural Architecture Search (NAS), where I 
+                developed graph kernels to identify optimal architecture using Gaussian modeling.
+                I adapted graph convolutional network as a similarity kernel to identify the best architecture using seen observations.
+            The resulant model was better  than current state-of-the-art search techniques on NASBench101 even under hardware constraints.
+             The model achieved over 100x improvement compared to Random Search.</p>
+            </div>
+
+          </div> <!-- /timeline-block -->
 
    				<div class="timeline-block">
 
@@ -346,9 +292,10 @@
             <div class="chip">
                 <p style="text-align: center;">CUDA</p>
             </div>
-
+          </div>    
             
-            </div>
+        </div>
+            <div class="column">
             <br>
             <h2 style="text-align: center;"><i class="fa fa-code-fork" color="blue"></i> Libraries</h2>
             <br>
@@ -357,17 +304,24 @@
                 <p style="text-align: center;">TensorFlow</p>
               </div>
               <div class="chip">
-                <p style="text-align: center;">Pandas</p>
+                <p style="text-align: center;">PyTorch</p>
               </div>
               <div class="chip">
-                  <p style="text-align: center;">ROS</p>
-                </div>
+                <p style="text-align: center;">NNabla</p>
+              </div>
+  
             </div>
            
             <div style="text-align: center;">
               <div class="chip">
                 <p style="text-align: center;">Keras</p>
               </div>
+              <div class="chip">
+                <p style="text-align: center;">CUDA</p>
+              </div>  
+              <div class="chip">
+                  <p style="text-align: center;">ROS</p>
+                </div>
                 <div class="chip">
                   <p style="text-align: center;">Numpy</p>
                 </div>
@@ -388,7 +342,7 @@
 
         </div> <!-- End of column 1 -->
 
-        <div class="column">
+        <!-- <div class="column">
           <h2 style="text-align: center;"><i class="fa fa-book" color="blue"></i> Coursework</h1>
           <div style="text-align: center; margin-top: 40px;">
 
@@ -447,7 +401,7 @@
                         <p style="text-align: center;">Introduction to Parallel Programming</p>
                   </div>
                 </div>
-            
+             -->
                 
            
          
@@ -465,28 +419,6 @@
 
         </div>
       </div>
-
-         <!-- <div class="nine columns main-col">
-
-
-         
-
-				<div class="bars">
-
-				   <ul class="skills">
-					    <li><span class="bar-expand cpp"></span><em>C/C++</em></li>
-              <li><span class="bar-expand python"></span><em>Python</em></li>
-						  <li><span class="bar-expand python"></span><em>Java</em></li>
-						  <li><span class="bar-expand tf"></span><em>Tensorflow</em></li>
-						  <li><span class="bar-expand html5"></span><em>Cuda C</em></li>
-              <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
-					</ul>
-
-				</div><!-- end skill-bars -->
-
-			<!-- </div> main-col end --> 
-
-      <!-- </div> End skills -->
 
    </section> <!-- Resume Section End-->
 
@@ -531,13 +463,8 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
-   <!-- <script src="js/jquery.flexslider.js"></script> -->
    <script src="js/waypoints.js"></script>
    <script src="js/materialize.min.js"></script>
-   <!-- <script src="js/jquery.fittext.js"></script> -->
-   <!-- <script src="js/jquery-3.2.1.min.js"></script> -->
-   <!-- <script src="js/plugins.js"></script> -->
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
 
